@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit Singh Rajput - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-purple-50 to-indigo-100 text-gray-900">
+
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold tracking-wide">Rohit Singh Rajput</h1>
+      <ul class="flex gap-6 text-lg">
+        <li><a href="index.html" class="hover:text-yellow-300 transition">Home</a></li>
+        <li><a href="projects.html" class="hover:text-yellow-300 transition">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-300 transition">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="container mx-auto text-center py-20">
+    <img src="assets/profile.jpg" alt="Profile" class="mx-auto w-48 h-48 rounded-full border-4 border-purple-500 shadow-xl transform hover:scale-105 transition duration-300">
+    <h2 class="text-4xl font-extrabold mt-8 text-indigo-700">Hi, I'm Rohit 👋</h2>
+    <p class="mt-4 text-xl text-gray-700">B.Tech AI Student | Trader | Entrepreneur | Web Developer</p>
+    <a href="projects.html" class="mt-6 inline-block bg-purple-600 text-white px-8 py-3 rounded-full shadow-md hover:bg-indigo-700 transition duration-300">See My Work</a>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="container mx-auto py-16">
+    <h3 class="text-3xl font-bold text-center text-indigo-700 mb-10">My Skills</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Programming Card -->
+      <div class="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-2xl transition duration-300">
+        <h4 class="font-semibold text-xl text-purple-600">Programming</h4>
+        <p class="mt-3 text-gray-600">Python, C++, HTML, CSS, JavaScript</p>
+      </div>
+
+      <!-- Tools Card -->
+      <div class="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-2xl transition duration-300">
+        <h4 class="font-semibold text-xl text-purple-600">Tools</h4>
+        <p class="mt-3 text-gray-600">Visual Studio Code</p>
+      </div>
+
+      <!-- Interests Card -->
+      <div class="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-2xl transition duration-300">
+        <h4 class="font-semibold text-xl text-purple-600">Interests</h4>
+        <p class="mt-3 text-gray-600">Trading, Geopolitical, E-commerce, Dubai Real Estate</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <section class="container mx-auto py-16 text-center">
+    <h3 class="text-3xl font-bold text-indigo-700 mb-10">Intro Video & Background Music</h3>
+    <video controls class="mx-auto w-3/4 rounded-xl shadow-lg mb-6 hover:shadow-2xl transition">
+      <source src="assets/intro.mp4" type="video/mp4">
+    </video>
+    <audio controls class="mx-auto">
+      <source src="assets/bg-music.mp3" type="audio/mp3">
+    </audio>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-center py-6 mt-12">
+    <p class="text-lg">© 2025 Rohit Singh Rajput | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
